@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 250px;
+}
+
+.body {
+  display: flex;
+}
+
+.quote {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.title{
+  margin-bottom: 40px;
+  font-size: 3rem;
+  width: 700px;
+  color: #29323d;
+}
+
+.subtitle{
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  width: 530px;
+  margin: auto;
+  margin-bottom: 40px;
+  white-space: pre-wrap;
+  font-weight: lighter;
+  color: #29323d;
+}
+
+.button{
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #29323d;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscribe{
+  background-color: #edf0f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.subscribe__text{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.subscribe__text h2{
+  font-size: 2rem;
+  color: #29323d;
+  margin-bottom: 40px;
+}
+
+.subscribe__text p {
+  margin-bottom: 50px;
+}
+
+.subscribe__input{
+  margin-bottom: 80px;
+}
+
+.subscribe__input input{
+  width: 350px;
+  text-indent: 10px;
+  font-size: 1rem;
+  margin-right: 15px;
+  border-radius: 4px;
+  padding: 14px 0;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 20px;
+}
